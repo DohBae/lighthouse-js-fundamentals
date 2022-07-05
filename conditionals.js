@@ -1,4 +1,5 @@
 /*
+//example 1 (conditionals)
 const raining = false;
 const cold = false;
 
@@ -11,9 +12,9 @@ if(cold) {
 }
 
 console.log("Now you're ready to go outside!"); 
-*/
 
-/*
+
+//example 2 (conditionals)
 const cold = false;
 
 if (cold) {
@@ -21,8 +22,8 @@ if (cold) {
 } else {
   console.log("Short sleeves are fine.");
 }
-*/
 
+//example 3 (conditionals)
 const temperature = -1;
 
 if (temperature < 0) {
@@ -34,3 +35,26 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+
+//example 4 (logical operators)
+const isCitizen = true;
+const age = 12;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+
+//example 5 (logical operators)
+const temperature = -55;
+
+if (temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside ins't such a great idea...");
+}
+*/
+//example 6 (logical operators)
+const raining = false;
+
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
