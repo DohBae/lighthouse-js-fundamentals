@@ -51,10 +51,19 @@ const temperature = -55;
 if (temperature < -40 || temperature > 40) {
   console.log("Maybe going outside ins't such a great idea...");
 }
-*/
+
 //example 6 (logical operators)
 const raining = false;
 
 if (!raining) {
   console.log("Leave your umbrella at home!");
 }
+*/
+
+const age = 12;
+
+if (age > 13) {
+  school = "Elementary";
+  console.log("You will go to " + school + ".")
+}
+
